@@ -1,0 +1,47 @@
+.buttonAddTask {
+  background-color: rgb(26, 161, 48);
+  position: relative ; /* Posicionamiento absoluto */
+  top: -0.3rem; /* Ajusta la distancia desde la parte superior */
+  left: 88%; /* Ajusta la distancia desde la izquierda */
+  padding: 6px 15px; /* Ajusta el relleno interno */
+  font-size: 13px; /* Tamaño de la fuente */
+  color: #fff; /* Color del texto */
+  /* border: none; Elimina el borde */
+  /* cursor: pointer; */
+}
+
+.StatusYellow {
+  border-radius: 18px;
+  /* border: 0px solid transparent;
+  padding: 0em 0em; */
+  font-size: 1em;
+  font-weight: 500;
+  /* font-family: inherit; */
+  background-color: #ffcc00;
+  /* cursor: pointer; */
+  transition: border-color 0.25s;
+  /* background-color: aqua; */
+  /* top:-2rem; */
+}
+
+.StatusGreen {
+  border-radius: 18px;
+  /* border: 0px solid transparent;
+  padding: 0em 0em; */
+  font-size: 1em;
+  font-weight: 500;
+  /* font-family: inherit; */
+  background-color: #1fd13d;
+  /* cursor: pointer; */
+  transition: border-color 0.25s;
+  /* background-color: aqua; */
+  /* top:-2rem; */
+}
+
+.widthTaskName {
+  width: 200px;
+}
+
+.widthTaskAction {
+  width: 40px;
+}

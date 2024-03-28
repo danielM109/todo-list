@@ -1,0 +1,245 @@
+tr.seleccionada {
+  text-decoration: line-through;
+}
+
+.expirada {
+  color: rgb(212, 0, 0);
+}
+
+thead, th {
+  cursor: pointer;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* line-height: 1.5; */
+  font-weight: 400;
+  
+
+  color-scheme: light dark;
+  color: rgba(213, 46, 46, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}  */
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+  
+}
+a:hover {
+  color: #535bf2;
+}
+
+
+header {
+  background-color: #364552;
+  border-color: #364552;
+  padding-inline-end: 0%;
+  /* padding: 0rem 2rem; */
+  border: 10rem;
+  /* margin: 10rem;
+  display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* padding: 0rem; */
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  place-items: center;
+  min-width: 320px;
+  min-height: 80vh;
+  top: 0px; 
+}
+
+header h1 {
+  background-color: #364552;
+  color:rgb(143, 233, 126);
+  /* text-align: center; */
+  font-size: 3.7em;
+  /* line-height: 1.1; */
+  /* position: static;  */
+  /* top: 10px;  */
+  /* left: 550px;  */
+  /* z-index: 999;  */
+  /* padding: 1% 20rem; */
+  /* border: 0rem;
+  margin: 0rem; */
+}
+
+h4 {
+  size: 2.8em;
+  color:#f7f9fa;
+  position: relative; 
+  top: -25px; 
+  /* left: 150px;  */
+  z-index: 999; 
+}
+
+.buttonCancel {
+  background-color: transparent;
+  color: #cbf6b2;
+  text-underline-position: below;
+}
+
+.buttonCancel:hover {
+  color: #fafcfc;
+  border-color: #20a839;
+}
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.1em 0.3em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+.buttonCancel:active {
+  color: #b6ed92;
+}
+
+table {
+  border-collapse: collapse; /* Para fusionar los bordes de las celdas */
+  width: 100%; 
+  background-color: #f9f9f9;
+  margin-bottom: 60px;
+}
+
+th, td {
+  text-align: center; /* Alineación del texto dentro de las celdas */
+}
+
+th {
+  width: 100px;
+}
+
+/* .width-task-name {
+  width: 290px;
+} */
+
+
+/* .width-task-action {
+  width: 50px;
+} */
+
+
+.head-table {
+  font-size: 1.2em;
+  border-bottom: 1px solid rgb(218, 24, 56);
+  text-align: center
+}
+
+.body-table {
+  font-size: 0.9em;
+  /* border: 1px solid rgb(218, 24, 56); */
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+.modal {
+  width: 70%;
+  max-width: 30rem;
+  background-color: #20a839;
+  color: #edeaf3;
+  border-radius: 8px;
+  border: none;
+}
+
+.modal::backdrop {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+/*control es input*/
+.inputNewTask {
+  margin-bottom: 0.5rem;
+}
+
+.selection {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.6rem;
+  width: 99%;
+  height: 100%;
+  max-width: 35rem;
+  margin-bottom: 0rem;
+  margin-bottom: 0.5rem;
+  /* display: block; */
+  font-size: 0.7em;
+  /* font-weight: bold; */
+  /* margin-bottom: 1rem; */
+  /* color: #d3cedc; */
+  /* text-transform: uppercase; */
+}
+
+.priority {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-bottom: 0rem;
+  color: #d3cedc;
+  text-transform: uppercase;
+}
+
+.inputNewTask label {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-bottom: 0rem;
+  color: #d3cedc;
+  text-transform: uppercase;
+}
+
+.inputNewTask input {
+  width: 94%;
+  max-width: 35rem;
+  font: inherit;
+  font-size: 0.8rem;
+  border: 1px solid #d3cedc;
+  border-radius: 4px;
+  padding: 0.4rem;
+  padding-left: 3%;
+  ;
+}
+
+.actions {
+  text-align: right;
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: 	#ECE2C6;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
